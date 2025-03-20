@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Letter.Generator
 {
@@ -6,16 +7,18 @@ namespace Letter.Generator
     {
         [Header("Letter Settings")]
         public char letter = 'a';
-        [SerializeField ]private AlphabetImageManager imageGenerator;
+
+        [ReadOnly] private Image image;
 
         private void Start()
         {
+            image = GetComponent<Image>();
             ImageGeneration();
         }
 
         private void ImageGeneration()
         {
-            AlphabetImageManager.Instance.GetLetterSprite(letter);
+            image.sprite = AlphabetImageManager.Instance.GetLetterSprite(letter);
         }
     }
 }
