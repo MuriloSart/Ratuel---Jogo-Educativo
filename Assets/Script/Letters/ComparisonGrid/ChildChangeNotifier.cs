@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class ChildChangeNotifier : MonoBehaviour
 {
-    public ComparisonGrid comparison;
+    private ComparisonGrid comparison;
 
     [SerializeField] private UnityEvent onChildAdded;
 
@@ -13,6 +13,7 @@ public class ChildChangeNotifier : MonoBehaviour
     void Start()
     {
         lastChildCount = transform.childCount;
+        comparison = GetComponent<ComparisonGrid>();
     }
 
     void Update()

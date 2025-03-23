@@ -1,4 +1,4 @@
-public interface ILetterComparable
+public interface IComparable
 {
     public bool VerifyLetter(char letter);
 }

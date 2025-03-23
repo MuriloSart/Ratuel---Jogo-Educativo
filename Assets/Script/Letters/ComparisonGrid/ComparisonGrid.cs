@@ -1,14 +1,14 @@
-using Letter.Generator;
+using TMPro;
 using UnityEngine;
 
-public class ComparisonGrid : MonoBehaviour, ILetterComparable
+public class ComparisonGrid : MonoBehaviour, IComparable
 {
     [Header("Letter Comparison Setting")]
-    public char letter = 'a';
+    public char letter = 'A';
 
     public bool IsCorrect { get; private set; }
 
-    public void LetterAdded() => IsCorrect = VerifyLetter(transform.GetChild(0).GetComponent<LetterGeneration>().letter);
+    public void LetterAdded() => IsCorrect = VerifyLetter(transform.GetChild(0).GetComponent<TextMeshProUGUI>().text[0]);
 
     public void LetterRemoved() => IsCorrect = false;
 
