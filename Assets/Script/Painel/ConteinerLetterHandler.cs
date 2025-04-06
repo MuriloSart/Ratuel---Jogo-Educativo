@@ -3,7 +3,6 @@ using UnityEngine;
 public class ConteinerLetterHandler : MonoBehaviour
 {
     public AudioSource hitSound;
-    public AudioSource missSound;
 
     public void ConferLetters()
     {

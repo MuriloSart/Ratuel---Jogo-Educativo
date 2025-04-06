@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8c7524071d204dd419e13631dcec271c
+guid: 7e89dac1bd1e4aa46ace502e3aab585f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1960420988216266086
-    second: iceCreamManThinking_0
+      213: -5393949342150720945
+    second: bench_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: iceCreamManThinking_0
+      name: bench_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 222
-        height: 500
+        width: 296
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66dc9d48080d43b10800000000000000
-      internalID: 1960420988216266086
+      spriteID: f4287a4d6a7d425b0800000000000000
+      internalID: -5393949342150720945
       vertices: []
       indices: 
       edges: []
