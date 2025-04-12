@@ -1,12 +1,11 @@
-using Letter.Generator;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class ChildChangeNotifier : MonoBehaviour
 {
-    private ComparisonGrid comparison;
-
     [SerializeField] private UnityEvent onChildAdded;
+
+    private ComparisonGrid comparison;
 
     private int lastChildCount;
 

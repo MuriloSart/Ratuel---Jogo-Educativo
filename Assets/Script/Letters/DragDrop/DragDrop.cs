@@ -6,6 +6,8 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 {
     [SerializeField] private Canvas canvas;
 
+    public AudioSource selectedSound;
+
     [ReadOnly] public Transform currentParent;
 
     private CanvasGroup canvasGroup;
@@ -35,10 +37,11 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
-        Debug.Log(eventData.pointerEnter);
-
         if (eventData.pointerEnter != null && eventData.pointerEnter.GetComponent<GridLayoutGroup>())
+        {
             transform.SetParent(eventData.pointerEnter.transform);
+            selectedSound.Play();
+        }
         else
             transform.SetParent(transform.root);
     }

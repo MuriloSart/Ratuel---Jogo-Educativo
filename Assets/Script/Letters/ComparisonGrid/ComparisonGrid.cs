@@ -8,6 +8,15 @@ public class ComparisonGrid : MonoBehaviour, IComparable
 
     public bool IsCorrect { get; private set; }
 
+
+    private void Awake()
+    {
+        letter = char.ToUpper(letter);
+
+        if (transform.childCount > 0)
+            LetterAdded();
+    }
+
     public void LetterAdded() => IsCorrect = VerifyLetter(transform.GetChild(0).GetComponent<TextMeshProUGUI>().text[0]);
 
     public void LetterRemoved() => IsCorrect = false;
