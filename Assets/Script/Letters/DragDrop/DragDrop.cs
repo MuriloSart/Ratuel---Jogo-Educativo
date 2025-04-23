@@ -1,15 +1,19 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+
 public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-    [SerializeField] private Canvas canvas;
+    public GraphicRaycaster raycaster;
+    public EventSystem eventSystem;
 
     public AudioSource selectedSound;
 
     [ReadOnly] public Transform currentParent;
 
+    [SerializeField] private Canvas canvas;
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
 
@@ -30,6 +34,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     public void OnDrag(PointerEventData eventData)
     {
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+        transform.SetAsLastSibling();
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -37,12 +42,21 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
-        if (eventData.pointerEnter != null && eventData.pointerEnter.GetComponent<GridLayoutGroup>())
+        List<RaycastResult> results = new List<RaycastResult>();
+
+        raycaster.Raycast(eventData, results);
+
+        foreach (RaycastResult result in results)
         {
-            transform.SetParent(eventData.pointerEnter.transform);
-            selectedSound.Play();
+            GridLayoutGroup grid = result.gameObject.GetComponent<GridLayoutGroup>();
+            if (grid != null)
+            {
+                transform.SetParent(result.gameObject.transform);
+                selectedSound.Play();
+                return;
+            }
         }
-        else
-            transform.SetParent(transform.root);
+
+        transform.SetParent(transform.root);
     }
 }

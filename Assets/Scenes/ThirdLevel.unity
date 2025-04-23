@@ -301,6 +301,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -439,6 +447,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -889,6 +905,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1027,6 +1051,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1172,6 +1204,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1310,6 +1350,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1545,6 +1593,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1794,6 +1850,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2463,6 +2527,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2601,6 +2673,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1811386847}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 1811386845}
+    - target: {fileID: 2608850213922135731, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1065945479}
     - target: {fileID: 5852140586233131408, guid: 2b61087df53ed504eb1d9ca8f36a2ef4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2809,7 +2889,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &1811386846
 MonoBehaviour:
   m_ObjectHideFlags: 0
