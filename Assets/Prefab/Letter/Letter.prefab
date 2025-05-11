@@ -151,9 +151,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ee56c387140aa45b76ab21d72d3627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
+  raycaster: {fileID: 0}
+  eventSystem: {fileID: 0}
   selectedSound: {fileID: 1318988730615572249}
   currentParent: {fileID: 0}
+  canvas: {fileID: 0}
 --- !u!225 &8402604214401250814
 CanvasGroup:
   m_ObjectHideFlags: 0

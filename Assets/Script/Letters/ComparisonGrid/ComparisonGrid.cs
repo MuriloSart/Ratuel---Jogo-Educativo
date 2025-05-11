@@ -23,6 +23,7 @@ public class ComparisonGrid : MonoBehaviour, IComparable
 
     public bool VerifyLetter(char letter)
     {
+        letter = char.ToUpper(letter);
         if (letter == this.letter)
             return true;
         else
