@@ -11,7 +11,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     public AudioSource selectedSound;
 
-    [ReadOnly] public Transform currentParent;
+    public Transform currentParent;
 
     [SerializeField] private Canvas canvas;
     private CanvasGroup canvasGroup;

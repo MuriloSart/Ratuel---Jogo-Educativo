@@ -1,26 +1,34 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ConteinerLetterHandler : MonoBehaviour
 {
     public AudioSource hitSound;
+    public FadeController fade;
 
     public void ConferLetters()
     {
-        bool allCorrect = true;
 
         for (int i = 0; i < transform.childCount; i++)
         {
             var child = transform.GetChild(i);
             var comparison = child.GetComponent<ComparisonGrid>();
 
-            if (!comparison.IsCorrect)
-            {
-                allCorrect = false;
-                break;
-            }
+            if (!child.GetComponent<ComparisonGrid>()) continue;
+
+            if (!comparison.IsCorrect) return;
         }
 
-        if (allCorrect)
-            hitSound.Play();
+        hitSound.Play();
+
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        int totalScenes = SceneManager.sceneCountInBuildSettings;
+        int nextIndex = currentIndex + 1;
+
+        int targetSceneIndex = (nextIndex < totalScenes) ? nextIndex : 0;
+
+        fade.StartFadeIn(() => {
+            SceneManager.LoadScene(targetSceneIndex);
+        });
     }
 }
