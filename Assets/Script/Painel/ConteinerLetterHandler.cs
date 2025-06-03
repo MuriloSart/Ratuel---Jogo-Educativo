@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ConteinerLetterHandler : MonoBehaviour
 {
-    public AudioSource hitSound;
+    public AudioSource conquestSound;
     public FadeController fade;
 
     public void ConferLetters()
@@ -19,7 +19,7 @@ public class ConteinerLetterHandler : MonoBehaviour
             if (!comparison.IsCorrect) return;
         }
 
-        hitSound.Play();
+        if(conquestSound != null) conquestSound.Play();
 
         int currentIndex = SceneManager.GetActiveScene().buildIndex;
         int totalScenes = SceneManager.sceneCountInBuildSettings;
