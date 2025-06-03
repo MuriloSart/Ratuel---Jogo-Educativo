@@ -18,8 +18,8 @@ public class ComparisonGrid : MonoBehaviour, IComparable
     private void Awake()
     {
         letter = char.ToUpper(letter);
-
         image = GetComponent<Image>();
+        _normalColor = image.color;
 
         if (transform.childCount > 0) LetterAdded();
     }
@@ -28,7 +28,7 @@ public class ComparisonGrid : MonoBehaviour, IComparable
 
     public void LetterRemoved()
     {
-        _normalColor = image.color;
+        image.color = _normalColor;
         IsCorrect = false;
     }
 
