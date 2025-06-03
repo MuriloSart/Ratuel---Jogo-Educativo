@@ -9,8 +9,6 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     public GraphicRaycaster raycaster;
     public EventSystem eventSystem;
 
-    public AudioSource selectedSound;
-
     public Transform currentParent;
 
     [SerializeField] private Canvas canvas;
@@ -49,11 +47,13 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
         foreach (RaycastResult result in results)
         {
             GridLayoutGroup grid = result.gameObject.GetComponent<GridLayoutGroup>();
-            if (grid != null)
+            if (grid != null && grid.transform.childCount <= 0)
             {
-                transform.SetParent(result.gameObject.transform);
-                selectedSound.Play();
-                return;
+                if (grid != null)
+                {
+                    transform.SetParent(result.gameObject.transform);
+                    return;
+                }
             }
         }
 

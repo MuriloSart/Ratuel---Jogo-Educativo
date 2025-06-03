@@ -1,32 +1,51 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ComparisonGrid : MonoBehaviour, IComparable
 {
     [Header("Letter Comparison Setting")]
-    public char letter = 'A';
+    [SerializeField]private char letter = 'A';
+    [SerializeField]private AudioSource hitSound;
+    [SerializeField]private AudioSource errorSound;
 
     public bool IsCorrect { get; private set; }
 
+    private Image image;
+
+    private Color _normalColor;
 
     private void Awake()
     {
         letter = char.ToUpper(letter);
 
-        if (transform.childCount > 0)
-            LetterAdded();
+        image = GetComponent<Image>();
+
+        if (transform.childCount > 0) LetterAdded();
     }
 
     public void LetterAdded() => IsCorrect = VerifyLetter(transform.GetChild(0).GetComponent<TextMeshProUGUI>().text[0]);
 
-    public void LetterRemoved() => IsCorrect = false;
+    public void LetterRemoved()
+    {
+        _normalColor = image.color;
+        IsCorrect = false;
+    }
 
     public bool VerifyLetter(char letter)
     {
         letter = char.ToUpper(letter);
         if (letter == this.letter)
+        {
+            image.color = Color.green;
+            hitSound.Play();
             return true;
+        }
         else
+        {
+            image.color = Color.red;
+            errorSound.Play();
             return false;
+        }
     }
 }
