@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PauseHandler : MonoBehaviour
+public class UiHandler : MonoBehaviour
 {
     public GameObject menu;
 
