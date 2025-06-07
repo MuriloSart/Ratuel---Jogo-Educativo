@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 6f41eb642b66c18479df6ae3814fd68a
+=======
+guid: 3b02282f777986b49a41a4ad37ba7ec8
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -114,10 +118,17 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<< Updated upstream
         width: 384
         height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        width: 67
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,11 +141,84 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+<<<<<<< Updated upstream
+=======
+    - serializedVersion: 2
+      name: toysRow1_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 68
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18951e39db0ed4e50800000000000000
+      internalID: 6795334517606406529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toysRow1_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 68
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7343e0fb2fd145ae0800000000000000
+      internalID: -1561590242366049225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toysRow1_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 67
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d8e479e9b13e0f0800000000000000
+      internalID: -1088996316936237797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> Stashed changes
     outline: []
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< Updated upstream
     spriteID: f3348a68c82df8041b99a8b649a758b8
+=======
+    spriteID: 
+>>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 
@@ -143,8 +227,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       toysRow1_0: 3281108114483533667
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
