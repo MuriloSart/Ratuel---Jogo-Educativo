@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      iceCreamManThinking_0: 1960420988216266086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

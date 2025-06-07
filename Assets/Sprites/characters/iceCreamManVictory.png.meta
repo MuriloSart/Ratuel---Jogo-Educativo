@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      iceCreamManVictory_0: -6653600035889001656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
