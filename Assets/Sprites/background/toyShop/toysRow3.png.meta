@@ -1,23 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: d4c813fff8296684cb1042553525cdec
-=======
-guid: ac7a372f80a5ebe4a981b8bc41031c21
->>>>>>> Stashed changes
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8515423750753572152
-    second: toysRow3_0
-  - first:
-      213: 6206735585703927419
-    second: toysRow3_1
-  - first:
-      213: 834147239562546759
-    second: toysRow3_2
-  - first:
-      213: 2112113292780391332
-    second: toysRow3_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -79,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,114 +95,12 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: toysRow3_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-<<<<<<< Updated upstream
-        width: 408
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-        width: 83
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8caa860273323d980800000000000000
-      internalID: -8515423750753572152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-<<<<<<< Updated upstream
-=======
-    - serializedVersion: 2
-      name: toysRow3_1
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 0
-        width: 85
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7e98a86121c22650800000000000000
-      internalID: 6206735585703927419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: toysRow3_2
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 85
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74e8f70be7c739b00800000000000000
-      internalID: 834147239562546759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: toysRow3_3
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 0
-        width: 83
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ab4e8d69dbbf4d10800000000000000
-      internalID: 2112113292780391332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
->>>>>>> Stashed changes
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream
-    spriteID: 150124c445e827346850750e1f82c03b
-=======
-    spriteID: 
->>>>>>> Stashed changes
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -227,12 +109,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
-    nameFileIdTable:
-      toysRow3_0: -8515423750753572152
-=======
     nameFileIdTable: {}
->>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
